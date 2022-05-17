@@ -2,24 +2,24 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "com.example",
-		"id": "example_mod",
-		"version": "${version}",
+		"id": "random_respawns",
+		"version": "${1.1}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Random Respawns",
+			"description": "causes the player to respawn to a random position on death",
 			"contributors": {
-				"Me!": "Owner"
+				"aww_shoot#8649": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/AwwShoot/Random-Respawns-Quilt",
+				"issues": "https://github.com/AwwShoot/Random-Respawns-Quilt",
+				"sources": "https://github.com/AwwShoot/Random-Respawns-Quilt"
 			},
 			"icon": "assets/example_mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "net.quilt.random_respawns.RRCore"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "random_respawns.mixins.json"
 }

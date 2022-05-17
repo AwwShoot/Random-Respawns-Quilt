@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.quilt.random_respawns.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "RespawnAnchorBlockMixin",
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
